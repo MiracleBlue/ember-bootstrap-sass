@@ -1,0 +1,8 @@
+@import "ember-bootstrap-sass";
+
+.meow {
+  font-weight: normal;
+  @include button-variant(blue, grey, red);
+  @include button-size(10px, 10px, 10px, 10px, 10px);
+  // Hey there
+}

@@ -1,7 +1,7 @@
 {
   "name": "ember-bootstrap-sass",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Installs bootstrap-sass into your ember-cli application.",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -15,7 +15,7 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Nicholas Kircher",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.2",
@@ -40,7 +40,8 @@
     "ember-addon"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.0.0"
+    "ember-cli-babel": "^5.0.0",
+    "ember-cli-sass": "4.0.0-beta.5"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
